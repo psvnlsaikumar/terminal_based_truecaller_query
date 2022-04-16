@@ -12,3 +12,12 @@ Currently having the tokens.txt is a manual process, but the aim is to automate 
  2. cd terminal_based_truecaller_query
  3. chmod +x tc_query.sh
  4. ./tc_query <PHONE_NUMBER>
+
+
+# Tokens
+
+The tokens have an expiration month of one month. So over a year, you would have to set up a cron or something like that to automate the process of fetching the tokens.
+
+
+# NOTE
+The tokens in the token.txt are examples of how the tokens would look like, and are not the actual tokens. To get the actual tokens, you would be required to signin and grab the tokens from truecaller.com
